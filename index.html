@@ -1,0 +1,583 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Portafolio personal de Pedro Alberto Arrazcaeta Ramos, estudiante de Ingeniería Informática en la UCI, Cuba.">
+
+    <title>Pedro Arrazcaeta | Portafolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header class="header">
+        <a href="#inicio" class="logo">
+            PEDRO<span>.</span>DEV
+        </a>
+
+        <button class="menu-toggle" id="menu-toggle"
+                aria-label="Abrir menú" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="navbar" id="navbar">
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto" class="nav-contact">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- PRESENTACIÓN PRINCIPAL -->
+        <section class="hero section" id="inicio">
+
+            <div class="hero-content reveal">
+                <p class="eyebrow">
+                    ESTUDIANTE DE INGENIERÍA INFORMÁTICA
+                </p>
+
+                <h1>
+                    Hola, soy<br>
+                    <span>Pedro Alberto</span><br>
+                    Arrazcaeta Ramos.
+                </h1>
+
+                <h2 class="hero-subtitle">
+                    Futuro ingeniero informático
+                </h2>
+
+                <p class="hero-description">
+                    Estudiante de la Universidad de las Ciencias
+                    Informáticas (UCI), Cuba. Me apasiona la programación,
+                    la tecnología y el desarrollo de videojuegos.
+                    Estoy construyendo mis conocimientos paso a paso,
+                    con disciplina, curiosidad y muchas ganas de mejorar.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#proyectos" class="btn btn-gold">
+                        Ver mis proyectos ↘
+                    </a>
+
+                    <a href="#contacto" class="btn btn-outline">
+                        Contactarme
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div>
+                        <strong>UCI</strong>
+                        <span>Mi universidad</span>
+                    </div>
+
+                    <div>
+                        <strong>HTML / CSS</strong>
+                        <span>Aprendizaje inicial</span>
+                    </div>
+
+                    <div>
+                        <strong>C++</strong>
+                        <span>En formación</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FOTO PERSONAL -->
+            <div class="hero-image reveal">
+                <div class="image-frame">
+                    <div class="image-label">
+                        <span>PERFIL PERSONAL</span>
+                        <span class="gold">● EN DESARROLLO</span>
+                    </div>
+
+                    <!-- Guarda tu foto como foto-pedro.jpg
+                         en la misma carpeta que index.html. -->
+                    <img
+                        src="foto-pedro.jpg"
+                        alt="Fotografía de Pedro Alberto Arrazcaeta Ramos"
+                        class="profile-photo"
+                        id="profile-photo"
+                    >
+
+                    <div class="image-caption">
+                        <span>Pedro Arrazcaeta Ramos</span>
+                        <span class="gold">2026</span>
+                    </div>
+                </div>
+
+                <div class="floating-card">
+                    <span class="gold">&lt;/&gt;</span>
+                    <div>
+                        <strong>Aprender y crear</strong>
+                        <small>Mi camino en la programación</small>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- CINTA DECORATIVA -->
+        <div class="ticker">
+            <div>
+                PROGRAMACIÓN ✦ TECNOLOGÍA ✦ VIDEOJUEGOS ✦
+                CIENCIA ✦ INNOVACIÓN ✦ APRENDIZAJE ✦
+                PROGRAMACIÓN ✦ TECNOLOGÍA ✦ VIDEOJUEGOS ✦
+            </div>
+        </div>
+
+        <!-- SOBRE MÍ -->
+        <section class="section about" id="sobre-mi">
+
+            <div class="section-heading reveal">
+                <p class="eyebrow">01 / SOBRE MÍ</p>
+
+                <h2>
+                    Una mente curiosa,<br>
+                    <span>un futuro por construir.</span>
+                </h2>
+
+                <p>
+                    Soy un joven comprometido con mi formación académica
+                    y con el objetivo de convertirme en un profesional
+                    de la informática.
+                </p>
+            </div>
+
+            <div class="about-grid">
+
+                <article class="info-card reveal">
+                    <span class="card-number">01</span>
+                    <div class="card-icon">⌘</div>
+                    <h3>Mi pasión</h3>
+                    <p>
+                        Me encanta todo lo relacionado con la programación,
+                        la tecnología y los videojuegos. Me interesa conocer
+                        cómo funcionan los programas y cómo crear mis
+                        propias soluciones digitales.
+                    </p>
+                </article>
+
+                <article class="info-card reveal">
+                    <span class="card-number">02</span>
+                    <div class="card-icon">◎</div>
+                    <h3>Mi formación</h3>
+                    <p>
+                        Actualmente estudio Ingeniería Informática en la
+                        Universidad de las Ciencias Informáticas (UCI),
+                        en Cuba. Mi objetivo es aprovechar al máximo
+                        esta etapa de aprendizaje.
+                    </p>
+                </article>
+
+                <article class="info-card reveal">
+                    <span class="card-number">03</span>
+                    <div class="card-icon">✦</div>
+                    <h3>Mi mentalidad</h3>
+                    <p>
+                        Soy aplicado, perseverante y estoy dispuesto
+                        a aprender de mis errores. Creo que la práctica,
+                        la disciplina y la constancia son fundamentales
+                        para progresar.
+                    </p>
+                </article>
+
+            </div>
+
+            <div class="personal-details reveal">
+                <div>
+                    <span class="detail-label">NOMBRE COMPLETO</span>
+                    <strong>Pedro Alberto Arrazcaeta Ramos</strong>
+                </div>
+
+                <div>
+                    <span class="detail-label">FECHA DE NACIMIENTO</span>
+                    <strong>27 de enero de 2007</strong>
+                </div>
+
+                <div>
+                    <span class="detail-label">EDAD</span>
+                    <strong>19 años</strong>
+                </div>
+
+                <div>
+                    <span class="detail-label">UBICACIÓN ACADÉMICA</span>
+                    <strong>UCI · Cuba</strong>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- HABILIDADES -->
+        <section class="section skills-section" id="habilidades">
+
+            <div class="section-heading reveal">
+                <p class="eyebrow">02 / MIS CONOCIMIENTOS</p>
+
+                <h2>
+                    Habilidades en<br>
+                    <span>constante evolución.</span>
+                </h2>
+
+                <p>
+                    Llevo menos de cuatro meses aprendiendo HTML y CSS,
+                    y actualmente estudio C++. Estoy construyendo mis
+                    fundamentos y buscando oportunidades para practicar.
+                </p>
+            </div>
+
+            <div class="skills-grid">
+
+                <article class="skill-card reveal">
+                    <div class="skill-top">
+                        <span class="skill-symbol">&lt;/&gt;</span>
+                        <span class="skill-status">Nivel inicial</span>
+                    </div>
+
+                    <h3>HTML</h3>
+                    <p>
+                        Estructura de páginas web, etiquetas y organización
+                        semántica del contenido.
+                    </p>
+
+                    <div class="progress-track">
+                        <div class="progress-fill" style="width: 40%"></div>
+                    </div>
+                    <span class="skill-footer">En aprendizaje</span>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-top">
+                        <span class="skill-symbol">✳</span>
+                        <span class="skill-status">Nivel inicial</span>
+                    </div>
+
+                    <h3>CSS</h3>
+                    <p>
+                        Colores, tipografía, distribución de elementos
+                        y diseño adaptable.
+                    </p>
+
+                    <div class="progress-track">
+                        <div class="progress-fill" style="width: 30%"></div>
+                    </div>
+                    <span class="skill-footer">En aprendizaje</span>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-top">
+                        <span class="skill-symbol">C++</span>
+                        <span class="skill-status">En formación</span>
+                    </div>
+
+                    <h3>C++</h3>
+                    <p>
+                        Estudiando los fundamentos del lenguaje
+                        y desarrollando mi lógica de programación.
+                    </p>
+
+                    <div class="progress-track">
+                        <div class="progress-fill" style="width: 15%"></div>
+                    </div>
+                    <span class="skill-footer">Aprendiendo actualmente</span>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-top">
+                        <span class="skill-symbol">JS</span>
+                        <span class="skill-status">Próximo objetivo</span>
+                    </div>
+
+                    <h3>JavaScript</h3>
+                    <p>
+                        Quiero profundizar en este lenguaje para crear
+                        páginas web más dinámicas e interactivas.
+                    </p>
+
+                    <div class="progress-track">
+                        <div class="progress-fill" style="width: 5%"></div>
+                    </div>
+                    <span class="skill-footer">Por estudiar</span>
+                </article>
+
+            </div>
+
+            <p class="skills-note">
+                Las barras son orientativas y puedes modificarlas según
+                tu progreso real. No representan certificaciones.
+            </p>
+
+            <div class="soft-skills reveal">
+                <h3>También me caracterizo por</h3>
+
+                <div class="tag-list">
+                    <span>Aprendizaje rápido</span>
+                    <span>Pensamiento lógico</span>
+                    <span>Disciplina</span>
+                    <span>Perseverancia</span>
+                    <span>Curiosidad científica</span>
+                    <span>Resolución de problemas</span>
+                    <span>Trabajo en equipo</span>
+                    <span>Superación personal</span>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- FORMACIÓN ACADÉMICA -->
+        <section class="section education" id="formacion">
+
+            <div class="section-heading reveal">
+                <p class="eyebrow">03 / MI FORMACIÓN</p>
+
+                <h2>
+                    Preparándome para<br>
+                    <span>los retos del futuro.</span>
+                </h2>
+            </div>
+
+            <div class="timeline">
+
+                <article class="timeline-item reveal">
+                    <span class="timeline-dot"></span>
+                    <p class="timeline-date">ETAPA ESCOLAR</p>
+                    <h3>Educación secundaria</h3>
+                    <p>
+                        Estudié en la secundaria que indicaste como
+                        “Alturo Puis Ruiz de Villa”.
+                    </p>
+                </article>
+
+                <article class="timeline-item reveal">
+                    <span class="timeline-dot"></span>
+                    <p class="timeline-date">ETAPA PREUNIVERSITARIA</p>
+                    <h3>Preuniversitario</h3>
+                    <p>
+                        Cursé mis estudios preuniversitarios en el centro
+                        que indicaste como “Martilez de Granada”.
+                    </p>
+                </article>
+
+                <article class="timeline-item reveal">
+                    <span class="timeline-dot"></span>
+                    <p class="timeline-date">ACTUALIDAD</p>
+                    <h3>Ingeniería Informática · UCI</h3>
+                    <p>
+                        Continúo mi formación en la Universidad de las
+                        Ciencias Informáticas de Cuba, ampliando mis
+                        conocimientos científicos y tecnológicos.
+                    </p>
+                </article>
+
+            </div>
+
+            <p class="skills-note">
+                Comprueba la ortografía oficial de los nombres de tus
+                centros educativos antes de publicar el portafolio.
+            </p>
+
+        </section>
+
+        <!-- PROYECTOS -->
+        <section class="section projects" id="proyectos">
+
+            <div class="section-heading reveal">
+                <p class="eyebrow">04 / MIS PROYECTOS</p>
+
+                <h2>
+                    Aprender haciendo,<br>
+                    <span>crear para mejorar.</span>
+                </h2>
+
+                <p>
+                    Estoy comenzando a desarrollar mi experiencia práctica.
+                    Este espacio crecerá con cada nuevo proyecto que termine.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card reveal">
+                    <div class="project-preview preview-one">
+                        <span class="preview-code">&lt;HTML&gt;</span>
+                        <span class="preview-title">Mi primer sitio web</span>
+                        <span class="preview-subtitle">Diseño · Estructura · Estilo</span>
+                    </div>
+
+                    <div class="project-info">
+                        <span class="project-type">PROYECTO PERSONAL</span>
+                        <h3>Mi portafolio</h3>
+                        <p>
+                            Esta página es un proyecto para practicar
+                            HTML, CSS y JavaScript, presentar mi perfil
+                            y documentar mi evolución.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-preview preview-two">
+                        <span class="code-line">01 &nbsp; #include &lt;iostream&gt;</span>
+                        <span class="code-line">02 &nbsp; int main() {</span>
+                        <span class="code-line gold-code">03 &nbsp; &nbsp; aprender();</span>
+                        <span class="code-line">04 &nbsp; &nbsp; return 0;</span>
+                        <span class="code-line">05 &nbsp; }</span>
+                    </div>
+
+                    <div class="project-info">
+                        <span class="project-type">EN CONSTRUCCIÓN</span>
+                        <h3>Prácticas de C++</h3>
+                        <p>
+                            Aquí añadiré ejercicios y pequeños programas
+                            cuando avance en el estudio del lenguaje.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>C++</span>
+                            <span>Lógica</span>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="project-message reveal">
+                <span class="gold">✦</span>
+                <p>
+                    <strong>Mi compromiso:</strong> aprender con humildad,
+                    practicar con constancia y convertir cada reto
+                    en una oportunidad para crecer.
+                </p>
+            </div>
+
+        </section>
+
+        <!-- OBJETIVOS -->
+        <section class="section goals">
+
+            <div class="section-heading reveal">
+                <p class="eyebrow">05 / MI VISIÓN</p>
+
+                <h2>
+                    Lo que quiero<br>
+                    <span>construir en el futuro.</span>
+                </h2>
+            </div>
+
+            <div class="goals-grid">
+
+                <article class="goal-card reveal">
+                    <span class="goal-number">01</span>
+                    <h3>Dominar las bases</h3>
+                    <p>
+                        Mejorar mis conocimientos de programación,
+                        algoritmos y estructuras de datos.
+                    </p>
+                </article>
+
+                <article class="goal-card reveal">
+                    <span class="goal-number">02</span>
+                    <h3>Desarrollar videojuegos</h3>
+                    <p>
+                        Explorar cómo se diseñan y programan videojuegos
+                        y aprender las herramientas necesarias.
+                    </p>
+                </article>
+
+                <article class="goal-card reveal">
+                    <span class="goal-number">03</span>
+                    <h3>Crear soluciones útiles</h3>
+                    <p>
+                        Aplicar la tecnología para resolver problemas
+                        reales y aportar valor a otras personas.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- CONTACTO -->
+        <section class="section contact" id="contacto">
+
+            <div class="contact-panel reveal">
+                <p class="eyebrow">06 / CONTACTO</p>
+
+                <h2>
+                    ¿Una oportunidad para crecer?
+                    <span>Estoy dispuesto a dar lo mejor de mí.</span>
+                </h2>
+
+                <p>
+                    Si buscas a una persona aplicada, con iniciativa
+                    y dispuesta a aprender, esforzarse y superarse,
+                    me encantaría conversar. Estoy abierto a consejos,
+                    colaboraciones educativas y oportunidades adecuadas
+                    a mi nivel de experiencia.
+                </p>
+
+                <div class="contact-buttons">
+                    <a href="tel:+5355210694" class="btn btn-gold">
+                        ☎ Llamar por teléfono
+                    </a>
+
+                    <button id="copy-phone" class="btn btn-outline"
+                            type="button">
+                        Copiar número
+                    </button>
+                </div>
+
+                <p class="phone-number">
+                    Teléfono: <span>+53 55210694</span>
+                </p>
+
+                <p class="privacy-note">
+                    Antes de publicar tu sitio en internet, considera
+                    si deseas mostrar tu número telefónico públicamente.
+                </p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer">
+        <a href="#inicio" class="logo">
+            PEDRO<span>.</span>DEV
+        </a>
+
+        <p>
+            Diseñado con curiosidad, esfuerzo y ganas de aprender.
+        </p>
+
+        <a href="#inicio" class="back-top">Volver arriba ↑</a>
+
+        <div class="footer-bottom">
+            © <span id="year"></span> Pedro Alberto Arrazcaeta Ramos.
+            Todos los derechos reservados.
+        </div>
+    </footer>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+</body>
+</html>
